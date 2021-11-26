@@ -11,3 +11,13 @@ function draw() {
     ellipse(100,100,100);
 
 }
+
+
+
+function keyPressed() {
+
+    if( keyCode >= 49 && keyCode <= 52 ) {
+        const numero = keyCode - 48;        
+    }
+
+}
