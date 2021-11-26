@@ -17,15 +17,17 @@ function setup() {
 
 function draw() {
 
-    background(0)
 
     switch( estadoActual ) {
+
         case "instrucciones":
             mostrarInstrucciones()
             break;
+
         case "poema":
             mostrarPoema()
             break;
+            
     }
 
 
@@ -36,6 +38,7 @@ function draw() {
 function keyPressed() {
 
     if( keyCode >= 49 && keyCode <= 52 ) {
+        // obtener número presionado, convertido a otro número entre 0 y 3
         const numero = keyCode - 49;
 
         poemaActual = proyectoTextos.poemas[ numero ]

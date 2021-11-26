@@ -1,14 +1,16 @@
-let proyectoTextos = {
+const proyectoTextos = {
     
     textoInstrucciones: "Presiona una tecla del 1 al 4",
 
     poemas: [
         {
             imagen: "sample.jpg",
+            titulo: "Título de poema",
+            autor: "Nombre de Autor",
             color: {
-                r: 0,
-                g: 0,
-                b: 0
+                r: 0.1,
+                g: 0.2,
+                b: 0.3
             },
             versos: [
                 "Poema 1. Verso 1. Elit eiusmod officia velit culpa laboris id esse officia laborum aute et.",
@@ -19,14 +21,17 @@ let proyectoTextos = {
                 "Poema 1. Verso 6. Laboris velit reprehenderit excepteur magna nostrud eiusmod nostrud ullamco aliquip amet exercitation excepteur tempor.",
                 "Poema 1. Verso 7. Pariatur aliquip laboris qui elit proident deserunt aliquip non culpa aute nostrud occaecat aute amet.",
                 "Poema 1. Verso 8. Dolor consectetur nostrud aliquip pariatur.",
-            ]
+            ],
+            
         },
         {
             imagen: "sample.jpg",
+            titulo: "Título de poema",
+            autor: "Nombre de Autor",
             color: {
-                r: 0,
-                g: 0,
-                b: 0
+                r: 0.4,
+                g: 0.5,
+                b: 0.6
             },
             versos: [
                 "Poema 2. Verso 1. Elit eiusmod officia velit culpa laboris id esse officia laborum aute et.",
@@ -41,10 +46,12 @@ let proyectoTextos = {
         },
         {
             imagen: "sample.jpg",
+            titulo: "Título de poema",
+            autor: "Nombre de Autor",
             color: {
-                r: 0,
-                g: 0,
-                b: 0
+                r: 0.7,
+                g: 0.8,
+                b: 0.9
             },
             versos: [
                 "Poema 3. Verso 1. Elit eiusmod officia velit culpa laboris id esse officia laborum aute et.",
@@ -59,10 +66,12 @@ let proyectoTextos = {
         },
         {
             imagen: "sample.jpg",
+            titulo: "Título de poema",
+            autor: "Nombre de Autor",
             color: {
-                r: 0,
-                g: 0,
-                b: 0
+                r: 0.50,
+                g: 0.51,
+                b: 0.52
             },
             versos: [
                 "Poema 4. Verso 1. Elit eiusmod officia velit culpa laboris id esse officia laborum aute et.",
